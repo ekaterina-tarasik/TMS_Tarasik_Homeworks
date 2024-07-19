@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4_Presentation_MatrixApp", "L4_Presentation_MatrixApp\L4_Presentation_MatrixApp.csproj", "{9D6E2396-AC34-4C21-873C-CDAE53F51A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D6E2396-AC34-4C21-873C-CDAE53F51A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6E2396-AC34-4C21-873C-CDAE53F51A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6E2396-AC34-4C21-873C-CDAE53F51A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6E2396-AC34-4C21-873C-CDAE53F51A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76A31C48-8944-4DEB-B2FC-8C8BCF996241}
+	EndGlobalSection
+EndGlobal
