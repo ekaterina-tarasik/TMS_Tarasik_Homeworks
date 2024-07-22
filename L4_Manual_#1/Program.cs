@@ -8,23 +8,22 @@ class Cycle
     {
         Console.OutputEncoding = Encoding.GetEncoding("utf-8");
         Console.WriteLine("1. При помощи цикла for вывести на экран нечетные числа от 1 до 99. При решении используйте операцию инкремента (++).");
-        Console.WriteLine();
-        var i = 0;
-        for (i = 0; i < 100; i++)
+        Console.WriteLine();       
+        for (int i = 0; i < 100 ; i++)
         {
-            if (i == 100)
+            if (i % 2 != 0)
             {
-                continue;
-            }
-            Console.Write(i + ", ");           
+                Console.Write(i + ", ");                
+            }                    
+            
         }
+
         Console.WriteLine();
         Console.WriteLine();
 
         Console.WriteLine("2. Необходимо вывести на экран числа от 5 до 1. При решении используйте операцию декремента (--).");
         Console.WriteLine();
-        var a = 5;
-        for (; a > 0; a--)
+        for (var a = 5; a > 0; a--)
         {
             if (a == 0)
             {
@@ -60,12 +59,10 @@ class Cycle
         }
         Console.WriteLine();
         Console.WriteLine();
-
-        Console.WriteLine("5. Вывести 10 первых чисел последовательности 0, -5,-10,-15...");
-        Console.WriteLine();
-        int f = 0;
         int h = 0;
-        for (; f < 10;)
+        Console.WriteLine("5. Вывести 10 первых чисел последовательности 0, -5,-10,-15...");
+        Console.WriteLine();        
+        for (int f = 0; f < 10;)
         {
             Console.Write(h + ", ");
             h = h - 5;
@@ -76,8 +73,7 @@ class Cycle
 
         Console.WriteLine("6. Составьте программу, выводящую на экран квадраты чисел от 10 до 20 включительно");
         Console.WriteLine();
-        int s = 10;
-        for (; s <= 20;)
+        for (int s = 10; s <= 20;)
         {
             Console.WriteLine($"Квадрта {s}: "+ (s * s) + " ");
             s++;
