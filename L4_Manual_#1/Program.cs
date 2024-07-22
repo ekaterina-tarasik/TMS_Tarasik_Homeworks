@@ -62,21 +62,19 @@ class Cycle
         int h = 0;
         Console.WriteLine("5. Вывести 10 первых чисел последовательности 0, -5,-10,-15...");
         Console.WriteLine();        
-        for (int f = 0; f < 10;)
+        for (int f = 0; f < 10; f++)
         {
             Console.Write(h + ", ");
-            h = h - 5;
-            f++;
+            h = h - 5;            
         }
         Console.WriteLine();
         Console.WriteLine();
 
         Console.WriteLine("6. Составьте программу, выводящую на экран квадраты чисел от 10 до 20 включительно");
         Console.WriteLine();
-        for (int s = 10; s <= 20;)
+        for (int s = 10; s <= 20; s ++)
         {
-            Console.WriteLine($"Квадрта {s}: "+ (s * s) + " ");
-            s++;
+            Console.WriteLine($"Квадрта {s}: "+ (s * s) + " ");           
         }   
         Console.WriteLine();
     }
