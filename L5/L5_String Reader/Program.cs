@@ -174,6 +174,7 @@ class Program
                     }
                     case "5": //Вывести на экран только предложения, не содержащие запятых.
                     {
+                            Console.WriteLine("Предложения, не содержащие запятых:");
                         Text = Regex.Replace(Text, @"[\r\n\t]", "");
                         string[] SeperatedStrings = Regex.Split(Text, @"(?<=[\.\!\?])");
                         var StringResult = string.Empty;
@@ -191,6 +192,7 @@ class Program
                     }
                     case "6": //Найти слова, начинающиеся и заканчивающиеся на одну и ту же букву.
                     {
+                        Console.WriteLine("Слова, начинающиеся и заканчивающиеся на одну и ту же букву:");
                         Text = Regex.Replace(Text, @"[\r\n\t]", "");
                         //string[] SeperatedStrings = Regex.Split(Text, @"(?<=[\:\;\ \,\.\!\?])");
                         string[] SeperatedWords = Text.Split(new char[] { ' ', '.', ',', ';', ':', '\n', '\r', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
@@ -202,6 +204,7 @@ class Program
                                 Console.WriteLine(Word);
                             }
                         }
+                       
                         Console.WriteLine("\nДля продолжения выберите действие от 1 до 6 или нажмите 0 для выхода\n");
                         Console.WriteLine();
                         break;
